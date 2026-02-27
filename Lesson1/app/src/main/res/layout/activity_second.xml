@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="New life for mirea activity!"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button android:id="@+id/button1"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Первая кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTop" />
+
+    <Button android:id="@+id/button2"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Вторая кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button1" />
+
+    <Button android:id="@+id/button3"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Третья кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2" />
+
+    <Button android:id="@+id/button4"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Четвертая кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+    <Button android:id="@+id/button5"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Пятая кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button4" />
+
+    <Button android:id="@+id/button6"
+        android:layout_width="0dp" android:layout_height="100dp"
+        android:layout_margin="16dp" android:text="Шестая кнопка"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

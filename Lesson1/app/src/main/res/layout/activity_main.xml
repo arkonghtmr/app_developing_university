@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageAvatar"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/sym_def_app_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:textColor="#A9A9A9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageAvatar" />
+
+    <TextView
+        android:id="@+id/textNameValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Fedorov Anton"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/textNameLabel"
+        app:layout_constraintTop_toTopOf="@id/textNameLabel"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textOrgLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Organization:"
+        android:textSize="18sp"
+        android:textColor="#A9A9A9"
+        app:layout_constraintStart_toStartOf="@+id/textNameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textNameLabel" />
+
+    <TextView
+        android:id="@+id/textOrgValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:text="RTU MIREA"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textNameValue"
+        app:layout_constraintTop_toTopOf="@+id/textOrgLabel" />
+
+    <ImageView
+        android:id="@+id/iconPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@android:drawable/sym_action_call"
+        app:layout_constraintStart_toStartOf="@+id/textOrgLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textOrgLabel" />
+
+    <!-- Номер телефона -->
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+7 (911)111-11-11"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textOrgValue"
+        app:layout_constraintTop_toTopOf="@+id/iconPhone" />
+
+    <TextView
+        android:id="@+id/textMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Mobile)"
+        android:textColor="#A9A9A9"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textPhone"
+        app:layout_constraintTop_toBottomOf="@+id/textPhone" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#D3D3D3"
+        android:textColor="@android:color/black"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
