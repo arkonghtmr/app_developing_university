@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Информационная безопасность"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Блок текста 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вариант №24. Мобильная безопасность. Исследование методов защиты данных в Android-приложениях, предотвращение утечек через небезопасные Intent-фильтры и использование защищенных контейнеров для хранения ключей."
+        android:textSize="18sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#444444"/>
+
+    <!-- Повторяем текст несколько раз, чтобы появилась прокрутка -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дополнительная информация для проверки скролла:\n\nВ ходе выполнения практической работы были изучены механизмы взаимодействия между компонентами приложения через Intent. Реализована передача данных между активностями, вызов системных интентов для работы с картами, браузером и набором номера телефона. \n\nТакже изучена работа с фрагментами, их жизненным циклом и динамическим управлением через FragmentManager. Реализована адаптивная верстка для портретной и ландшафтной ориентации экрана. \n\nВ контрольном задании реализовано приложение с Navigation Drawer, использующее архитектуру Navigation Component. Для отображения веб-контента интегрирован компонент WebView с поддержкой JavaScript."
+        android:textSize="18sp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Конец документа. Теперь этот экран точно можно прокрутить вверх и вниз, демонстрируя работу NestedScrollView в content_main.xml."
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:paddingBottom="100dp"/>
+
+</LinearLayout>
