@@ -1,0 +1,10 @@
+ru.mirea.fedorov.lesson4.looper
+id buttonSend
+id editTextAge
+id editTextJob
+id layoutAge
+id layoutJob
+id textStatus
+layout activity_main
+string app_name
+style Theme_LooperApp

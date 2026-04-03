@@ -1,0 +1,8 @@
+ru.mirea.fedorov.lesson4.cryptoloader
+id buttonEncrypt
+id editTextPhrase
+id layoutPhrase
+id textStatus
+layout activity_main
+string app_name
+style Theme_CryptoLoaderApp

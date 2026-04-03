@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-debug-35:/raw_music.wav.flat",
+        "source": "ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-main-37:/raw/music.wav"
+    },
+    {
+        "merged": "ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-debug-35:/layout_activity_main.xml.flat",
+        "source": "ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-main-37:/layout/activity_main.xml"
+    }
+]

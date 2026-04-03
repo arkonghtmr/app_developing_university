@@ -1,0 +1,7 @@
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-pngs-0 D:\GitHub\app_developing_university\Lesson4\ServiceApp\build\generated\res\pngs\debug
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-updated_navigation_xml-1 D:\GitHub\app_developing_university\Lesson4\ServiceApp\build\generated\updated_navigation_xml\debug
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-packageDebugResources-2 D:\GitHub\app_developing_university\Lesson4\ServiceApp\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-packageDebugResources-3 D:\GitHub\app_developing_university\Lesson4\ServiceApp\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-debug-4 D:\GitHub\app_developing_university\Lesson4\ServiceApp\build\intermediates\merged_res\debug\mergeDebugResources
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-debug-5 D:\GitHub\app_developing_university\Lesson4\ServiceApp\src\debug\res
+ru.mirea.fedorov.lesson4.serviceapp.ServiceApp-main-6 D:\GitHub\app_developing_university\Lesson4\ServiceApp\src\main\res

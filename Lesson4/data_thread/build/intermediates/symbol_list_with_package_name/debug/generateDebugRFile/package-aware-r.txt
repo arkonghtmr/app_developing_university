@@ -1,0 +1,6 @@
+ru.mirea.fedorov.lesson4.data_thread
+id buttonStartDemo
+id textInfo
+layout activity_main
+string app_name
+style Theme_DataThreadApp

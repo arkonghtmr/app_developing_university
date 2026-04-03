@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id buttonPlay
+id buttonStop
+id textStatus
+id textSubtitle
+id textTitle
+layout activity_main
+raw music
+string app_name
+style Theme.ServiceApp
