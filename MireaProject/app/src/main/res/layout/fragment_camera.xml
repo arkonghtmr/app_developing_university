@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Фотозаметка"
+            android:textColor="@color/brand_text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textCameraStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/camera_waiting_message"
+            android:textColor="@color/brand_muted"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/brand_surface"
+            android:contentDescription="@string/menu_camera"
+            android:padding="12dp"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPhotoNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Комментарий к снимку"
+                android:inputType="textCapSentences" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Сделать снимок" />
+
+        <TextView
+            android:id="@+id/textPhotoNotePreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@color/brand_surface"
+            android:padding="16dp"
+            android:text="@string/camera_note_placeholder"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

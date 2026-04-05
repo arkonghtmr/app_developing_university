@@ -1,6 +1,0 @@
-ru.mirea.fedorov.lesson4.workmanager
-id buttonStartWorker
-id textStatus
-layout activity_main
-string app_name
-style Theme_WorkManagerApp

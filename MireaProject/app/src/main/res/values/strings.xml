@@ -1,5 +1,49 @@
 <resources>
     <string name="app_name">MireaProject</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+
+    <string name="menu_home">О проекте</string>
+    <string name="menu_sensors">Датчики</string>
+    <string name="menu_camera">Камера</string>
+    <string name="menu_recorder">Диктофон</string>
+
+    <string name="student_name">Фёдоров Антон Сергеевич</string>
+    <string name="student_group">БСБО-09-23</string>
+    <string name="student_full">Фёдоров Антон Сергеевич, БСБО-09-23</string>
+
+    <string name="permissions_template">Разрешения:\nКамера: %1$s\nМикрофон: %2$s</string>
+    <string name="permission_granted">разрешено</string>
+    <string name="permission_denied">не выдано</string>
+
+    <string name="sensor_heading_default">Направление: ожидание данных</string>
+    <string name="sensor_hint_default">Подвигайте устройство, чтобы увидеть изменения акселерометра и направление на север.</string>
+    <string name="sensor_count_template">Найдено датчиков: %1$d</string>
+    <string name="sensor_no_accelerometer">На устройстве нет акселерометра.</string>
+    <string name="sensor_no_magnetometer">Магнитометр отсутствует, поэтому вычисление направления на север недоступно.</string>
+    <string name="heading_template">Азимут: %1$.1f° (%2$s)</string>
+    <string name="north_hint_template">Подсказка: %1$s</string>
+    <string name="axis_template">%1$s: %2$.2f</string>
+
+    <string name="camera_waiting_message">Сделайте снимок, чтобы сохранить фотозаметку в папку приложения.</string>
+    <string name="camera_permission_denied_message">Разрешение на камеру не выдано.</string>
+    <string name="camera_success_message">Снимок сохранён. Фото и подпись обновлены на экране.</string>
+    <string name="camera_cancelled_message">Съёмка отменена.</string>
+    <string name="camera_error_template">Не удалось открыть камеру: %1$s</string>
+    <string name="camera_default_note">Без подписи</string>
+    <string name="camera_note_template">Подпись к фото: %1$s</string>
+    <string name="camera_note_placeholder">Здесь появится подпись к последнему снимку.</string>
+
+    <string name="audio_idle_message">Готово к записи голосовой заметки.</string>
+    <string name="audio_permission_denied_message">Разрешение на микрофон не выдано.</string>
+    <string name="audio_start_record">Начать запись</string>
+    <string name="audio_stop_record">Остановить запись</string>
+    <string name="audio_start_play">Воспроизвести</string>
+    <string name="audio_stop_play">Остановить воспроизведение</string>
+    <string name="audio_recording_started_template">Идёт запись файла %1$s.</string>
+    <string name="audio_recording_finished_message">Запись завершена. Файл готов к воспроизведению.</string>
+    <string name="audio_file_missing_message">Сначала запишите голосовую заметку.</string>
+    <string name="audio_play_started_message">Идёт воспроизведение записи.</string>
+    <string name="audio_play_finished_message">Воспроизведение завершено.</string>
+    <string name="audio_error_template">Ошибка при работе с аудио: %1$s</string>
 </resources>

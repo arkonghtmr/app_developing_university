@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sensor_heading_default"
+        android:textColor="@color/brand_text"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNorthHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sensor_hint_default"
+        android:textColor="@color/brand_muted"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textAccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Accuracy: -"
+        android:textColor="@color/brand_muted"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/brand_surface"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textAxisX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: 0.00"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textAxisY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Y: 0.00"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textAxisZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Z: 0.00"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textSensorCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/brand_text"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listSensors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

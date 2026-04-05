@@ -1,6 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.Lesson4App" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:statusBarColor">#F4F0E8</item>
-        <item name="android:navigationBarColor">#F4F0E8</item>
-    </style>
-</resources>

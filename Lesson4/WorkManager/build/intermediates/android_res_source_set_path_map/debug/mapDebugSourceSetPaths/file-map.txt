@@ -1,7 +1,0 @@
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-pngs-0 D:\GitHub\app_developing_university\Lesson4\WorkManager\build\generated\res\pngs\debug
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-updated_navigation_xml-1 D:\GitHub\app_developing_university\Lesson4\WorkManager\build\generated\updated_navigation_xml\debug
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-packageDebugResources-2 D:\GitHub\app_developing_university\Lesson4\WorkManager\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-packageDebugResources-3 D:\GitHub\app_developing_university\Lesson4\WorkManager\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-debug-4 D:\GitHub\app_developing_university\Lesson4\WorkManager\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-debug-5 D:\GitHub\app_developing_university\Lesson4\WorkManager\src\debug\res
-ru.mirea.fedorov.lesson4.workmanager.WorkManager-main-6 D:\GitHub\app_developing_university\Lesson4\WorkManager\src\main\res

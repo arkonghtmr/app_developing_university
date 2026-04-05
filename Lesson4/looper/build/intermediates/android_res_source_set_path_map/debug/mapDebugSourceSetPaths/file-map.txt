@@ -1,7 +1,0 @@
-ru.mirea.fedorov.lesson4.looper-pngs-0 D:\GitHub\app_developing_university\Lesson4\looper\build\generated\res\pngs\debug
-ru.mirea.fedorov.lesson4.looper-updated_navigation_xml-1 D:\GitHub\app_developing_university\Lesson4\looper\build\generated\updated_navigation_xml\debug
-ru.mirea.fedorov.lesson4.looper-packageDebugResources-2 D:\GitHub\app_developing_university\Lesson4\looper\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-ru.mirea.fedorov.lesson4.looper-packageDebugResources-3 D:\GitHub\app_developing_university\Lesson4\looper\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-ru.mirea.fedorov.lesson4.looper-debug-4 D:\GitHub\app_developing_university\Lesson4\looper\build\intermediates\merged_res\debug\mergeDebugResources
-ru.mirea.fedorov.lesson4.looper-debug-5 D:\GitHub\app_developing_university\Lesson4\looper\src\debug\res
-ru.mirea.fedorov.lesson4.looper-main-6 D:\GitHub\app_developing_university\Lesson4\looper\src\main\res
