@@ -56,6 +56,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             openFragment(new CameraFragment(), getString(R.string.menu_camera));
         } else if (itemId == R.id.nav_recorder) {
             openFragment(new RecorderFragment(), getString(R.string.menu_recorder));
+        } else if (itemId == R.id.nav_profile) {
+            openFragment(new ProfileFragment(), getString(R.string.menu_profile));
+        } else if (itemId == R.id.nav_files) {
+            openFragment(new FilesFragment(), getString(R.string.menu_files));
         } else {
             return false;
         }

@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="В приложении собраны четыре части практической работы: обзор проекта, работа с датчиками, фотозаметка через системную камеру и диктофон на основе MediaRecorder."
+            android:text="@string/home_intro"
             android:textColor="@color/brand_text"
             android:textSize="17sp" />
 
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Экран датчиков показывает список поддерживаемых сенсоров, текущие значения акселерометра и вычисляет направление на север по данным акселерометра и магнитометра."
+            android:text="@string/home_sensor_summary"
             android:textColor="@color/brand_text"
             android:textSize="16sp" />
 
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Экран камеры решает творческую задачу фотозаметки: снимок сохраняется в папку приложения, а подпись к нему отображается рядом с фотографией."
+            android:text="@string/home_camera_summary"
             android:textColor="@color/brand_text"
             android:textSize="16sp" />
 
@@ -54,7 +54,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Экран диктофона позволяет записывать и воспроизводить голосовые заметки. Разрешения на камеру и микрофон запрашиваются в момент использования."
+            android:text="@string/home_recorder_summary"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/home_profile_summary"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/home_files_summary"
             android:textColor="@color/brand_text"
             android:textSize="16sp" />
 

@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Фотозаметка"
+            android:text="@string/camera_title"
             android:textColor="@color/brand_text"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -47,7 +47,7 @@
                 android:id="@+id/editPhotoNote"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Комментарий к снимку"
+                android:hint="@string/camera_note_hint"
                 android:inputType="textCapSentences" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Сделать снимок" />
+            android:text="@string/camera_take_photo" />
 
         <TextView
             android:id="@+id/textPhotoNotePreview"

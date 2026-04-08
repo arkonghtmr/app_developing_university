@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Практическая работа: аппаратные возможности"
+        android:text="@string/nav_header_subtitle"
         android:textColor="@color/brand_text"
         android:textSize="14sp" />
 

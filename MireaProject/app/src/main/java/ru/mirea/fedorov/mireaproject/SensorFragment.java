@@ -17,7 +17,6 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 import ru.mirea.fedorov.mireaproject.databinding.FragmentSensorBinding;
 
@@ -174,11 +173,7 @@ public class SensorFragment extends Fragment implements SensorEventListener {
         if (binding == null) {
             return;
         }
-        binding.textAccuracy.setText(String.format(
-                Locale.getDefault(),
-                "Accuracy: %d",
-                accuracy
-        ));
+        binding.textAccuracy.setText(getString(R.string.sensor_accuracy_template, accuracy));
     }
 
     @Override

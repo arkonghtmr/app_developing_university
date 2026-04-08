@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Голосовая заметка"
+            android:text="@string/recorder_title"
             android:textColor="@color/brand_text"
             android:textSize="24sp"
             android:textStyle="bold" />

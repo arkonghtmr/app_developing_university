@@ -7,24 +7,36 @@
     <string name="menu_sensors">Датчики</string>
     <string name="menu_camera">Камера</string>
     <string name="menu_recorder">Диктофон</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_files">Работа с файлами</string>
 
     <string name="student_name">Фёдоров Антон Сергеевич</string>
     <string name="student_group">БСБО-09-23</string>
     <string name="student_full">Фёдоров Антон Сергеевич, БСБО-09-23</string>
+    <string name="nav_header_subtitle">Практическая работа: хранение данных и аппаратные возможности</string>
 
-    <string name="permissions_template">Разрешения:\nКамера: %1$s\nМикрофон: %2$s</string>
+    <string name="permissions_template">Разрешения:&#10;Камера: %1$s&#10;Микрофон: %2$s</string>
     <string name="permission_granted">разрешено</string>
     <string name="permission_denied">не выдано</string>
 
+    <string name="home_intro">В приложении собраны разделы практической работы по Android: работа с датчиками, камерой, аудиозаписью, сохранением профиля и шифрованными файлами.</string>
+    <string name="home_sensor_summary">Экран датчиков показывает список сенсоров, значения акселерометра и рассчитывает направление на север по данным устройства.</string>
+    <string name="home_camera_summary">Экран камеры делает фотозаметку: снимок сохраняется в папку приложения, а подпись отображается рядом с фотографией.</string>
+    <string name="home_recorder_summary">Экран диктофона позволяет записывать и воспроизводить голосовые заметки с запросом разрешения в момент использования.</string>
+    <string name="home_profile_summary">Во фрагменте профиля данные пользователя сохраняются в SharedPreferences и автоматически восстанавливаются после перезапуска приложения.</string>
+    <string name="home_files_summary">Во фрагменте работы с файлами создаются зашифрованные текстовые заметки в каталоге Documents приложения. Новая запись добавляется через Floating Action Button.</string>
+
     <string name="sensor_heading_default">Направление: ожидание данных</string>
-    <string name="sensor_hint_default">Подвигайте устройство, чтобы увидеть изменения акселерометра и направление на север.</string>
+    <string name="sensor_hint_default">Подвигайте устройство, чтобы увидеть изменения акселерометра и вычисленное направление на север.</string>
     <string name="sensor_count_template">Найдено датчиков: %1$d</string>
     <string name="sensor_no_accelerometer">На устройстве нет акселерометра.</string>
     <string name="sensor_no_magnetometer">Магнитометр отсутствует, поэтому вычисление направления на север недоступно.</string>
     <string name="heading_template">Азимут: %1$.1f° (%2$s)</string>
     <string name="north_hint_template">Подсказка: %1$s</string>
     <string name="axis_template">%1$s: %2$.2f</string>
+    <string name="sensor_accuracy_template">Точность: %1$d</string>
 
+    <string name="camera_title">Фотозаметка</string>
     <string name="camera_waiting_message">Сделайте снимок, чтобы сохранить фотозаметку в папку приложения.</string>
     <string name="camera_permission_denied_message">Разрешение на камеру не выдано.</string>
     <string name="camera_success_message">Снимок сохранён. Фото и подпись обновлены на экране.</string>
@@ -33,7 +45,10 @@
     <string name="camera_default_note">Без подписи</string>
     <string name="camera_note_template">Подпись к фото: %1$s</string>
     <string name="camera_note_placeholder">Здесь появится подпись к последнему снимку.</string>
+    <string name="camera_note_hint">Комментарий к снимку</string>
+    <string name="camera_take_photo">Сделать снимок</string>
 
+    <string name="recorder_title">Голосовая заметка</string>
     <string name="audio_idle_message">Готово к записи голосовой заметки.</string>
     <string name="audio_permission_denied_message">Разрешение на микрофон не выдано.</string>
     <string name="audio_start_record">Начать запись</string>
@@ -46,4 +61,39 @@
     <string name="audio_play_started_message">Идёт воспроизведение записи.</string>
     <string name="audio_play_finished_message">Воспроизведение завершено.</string>
     <string name="audio_error_template">Ошибка при работе с аудио: %1$s</string>
+
+    <string name="profile_title">Профиль</string>
+    <string name="profile_subtitle">Данные сохраняются в SharedPreferences и восстанавливаются после новой загрузки приложения.</string>
+    <string name="profile_name_hint">ФИО</string>
+    <string name="profile_group_hint">Учебная группа</string>
+    <string name="profile_track_hint">Любимое направление в Android</string>
+    <string name="profile_goal_hint">Учебная цель на семестр</string>
+    <string name="profile_save">Сохранить профиль</string>
+    <string name="profile_status_default">Измените поля и нажмите кнопку сохранения.</string>
+    <string name="profile_status_saved">Профиль сохранён в SharedPreferences.</string>
+    <string name="profile_default_name">Фёдоров Антон Сергеевич</string>
+    <string name="profile_default_group">БСБО-09-23</string>
+    <string name="profile_default_track">Аппаратные возможности Android</string>
+    <string name="profile_default_goal">Собрать сильное портфолио по мобильной разработке</string>
+
+    <string name="files_title">Работа с файлами</string>
+    <string name="files_subtitle">Экран реализует шифрованные текстовые заметки. Каждая запись сохраняется в каталоге Documents приложения в виде бинарного зашифрованного файла.</string>
+    <string name="files_directory_template">Каталог заметок: %1$s</string>
+    <string name="files_status_loading">Чтение заметок…</string>
+    <string name="files_status_empty">Файлы пока не созданы.</string>
+    <string name="files_status_saved">Файл сохранён и зашифрован.</string>
+    <string name="files_status_error_template">Ошибка при работе с файлами: %1$s</string>
+    <string name="files_status_count_template">Загружено файлов: %1$d</string>
+    <string name="files_empty_state">Нажмите кнопку внизу справа, чтобы создать первую зашифрованную запись.</string>
+    <string name="files_fab_desc">Добавить запись</string>
+    <string name="files_dialog_title">Новая зашифрованная запись</string>
+    <string name="files_dialog_save">Сохранить</string>
+    <string name="files_dialog_cancel">Отмена</string>
+    <string name="files_name_hint">Имя файла</string>
+    <string name="files_text_hint">Текст записи</string>
+    <string name="files_name_required">Укажите имя файла.</string>
+    <string name="files_text_required">Введите текст записи.</string>
+    <string name="files_note_meta_template">Обновлено: %1$s\n%2$s</string>
+    <string name="files_open_close">Закрыть</string>
+    <string name="files_storage_unavailable">Внешний каталог Documents недоступен.</string>
 </resources>
