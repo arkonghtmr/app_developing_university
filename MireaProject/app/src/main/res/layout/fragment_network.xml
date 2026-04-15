@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brand_background">
+    android:background="@color/brand_background"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,84 +14,72 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MireaProject"
+            android:text="@string/network_title"
             android:textColor="@color/brand_text"
-            android:textSize="28sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/student_full"
+            android:layout_marginTop="10dp"
+            android:text="@string/network_subtitle"
             android:textColor="@color/brand_muted"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="@string/home_intro"
-            android:textColor="@color/brand_text"
-            android:textSize="17sp" />
-
-        <TextView
+        <Button
+            android:id="@+id/buttonRefreshNetwork"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/home_sensor_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
+            android:text="@string/network_refresh" />
 
         <TextView
+            android:id="@+id/textNetworkStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="@string/home_camera_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="@string/home_recorder_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="@string/home_profile_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="@string/home_files_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:text="@string/home_network_summary"
-            android:textColor="@color/brand_text"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/textPermissions"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="16dp"
             android:background="@color/brand_surface"
             android:padding="16dp"
+            android:text="@string/network_repo_default"
             android:textColor="@color/brand_text"
             android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textRepoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/network_repo_default"
+            android:textColor="@color/brand_text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRepoDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/network_description_default"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textRepoStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/brand_muted"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textRepoUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:autoLink="web"
+            android:textColor="@color/brand_text"
+            android:textSize="15sp" />
     </LinearLayout>
 
 </ScrollView>

@@ -9,6 +9,8 @@
     <string name="menu_recorder">Диктофон</string>
     <string name="menu_profile">Профиль</string>
     <string name="menu_files">Работа с файлами</string>
+    <string name="menu_network">Сеть</string>
+    <string name="menu_logout">Выход</string>
 
     <string name="student_name">Фёдоров Антон Сергеевич</string>
     <string name="student_group">БСБО-09-23</string>
@@ -25,6 +27,31 @@
     <string name="home_recorder_summary">Экран диктофона позволяет записывать и воспроизводить голосовые заметки с запросом разрешения в момент использования.</string>
     <string name="home_profile_summary">Во фрагменте профиля данные пользователя сохраняются в SharedPreferences и автоматически восстанавливаются после перезапуска приложения.</string>
     <string name="home_files_summary">Во фрагменте работы с файлами создаются зашифрованные текстовые заметки в каталоге Documents приложения. Новая запись добавляется через Floating Action Button.</string>
+    <string name="home_network_summary">Экран сети выполняет HTTPS-запрос через HttpURLConnection, получает JSON из удаленного ресурса и выводит результат без блокировки главного потока.</string>
+
+    <string name="login_title">Вход в MireaProject</string>
+    <string name="login_subtitle">Авторизация выполняется через Firebase Authentication по электронной почте и паролю.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_sign_in">Войти</string>
+    <string name="login_create_account">Создать аккаунт</string>
+    <string name="login_sign_out">Выйти</string>
+    <string name="login_verify_email">Подтвердить email</string>
+    <string name="login_continue">Продолжить</string>
+    <string name="login_signed_out">Пользователь не авторизован.</string>
+    <string name="login_signed_in">Пользователь авторизован.</string>
+    <string name="login_progress">Выполняется запрос к Firebase…</string>
+    <string name="login_auth_failed">Ошибка авторизации.</string>
+    <string name="login_firebase_status_fmt">Firebase UID: %1$s</string>
+    <string name="login_email_status_fmt">Email: %1$s&#10;Подтвержден: %2$b</string>
+    <string name="login_email_required">Введите email.</string>
+    <string name="login_password_required">Введите пароль.</string>
+    <string name="login_password_too_short">Пароль должен быть не короче 6 символов.</string>
+    <string name="login_config_missing_status">Firebase не настроен.</string>
+    <string name="login_config_missing_detail">Добавьте конфигурацию проекта Firebase для Android-приложения ru.mirea.fedorov.mireaproject, чтобы включить регистрацию, вход и подтверждение почты.</string>
+    <string name="login_verification_sent">Письмо подтверждения отправлено.</string>
+    <string name="login_verification_failed">Не удалось отправить письмо подтверждения.</string>
+    <string name="login_error_template">Firebase: %1$s</string>
 
     <string name="sensor_heading_default">Направление: ожидание данных</string>
     <string name="sensor_hint_default">Подвигайте устройство, чтобы увидеть изменения акселерометра и вычисленное направление на север.</string>
@@ -96,4 +123,16 @@
     <string name="files_note_meta_template">Обновлено: %1$s\n%2$s</string>
     <string name="files_open_close">Закрыть</string>
     <string name="files_storage_unavailable">Внешний каталог Documents недоступен.</string>
+
+    <string name="network_title">Сетевой ресурс</string>
+    <string name="network_subtitle">Фрагмент получает JSON с открытого GitHub API и показывает данные о репозитории Android Now in Android.</string>
+    <string name="network_refresh">Обновить данные</string>
+    <string name="network_status_loading">Выполняется сетевой запрос…</string>
+    <string name="network_status_loaded">Данные получены из сети.</string>
+    <string name="network_status_error_template">Ошибка сети: %1$s</string>
+    <string name="network_repo_default">Данные еще не загружены.</string>
+    <string name="network_description_default">Нажмите кнопку обновления, чтобы выполнить запрос.</string>
+    <string name="network_stats_template">Звезды: %1$d&#10;Язык: %2$s&#10;Обновлено: %3$s</string>
+    <string name="network_url_template">Источник: %1$s</string>
+    <string name="network_empty_value">не указано</string>
 </resources>

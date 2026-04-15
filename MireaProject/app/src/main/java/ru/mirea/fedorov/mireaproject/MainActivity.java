@@ -1,5 +1,6 @@
 package ru.mirea.fedorov.mireaproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -10,6 +11,8 @@ import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
 
 import ru.mirea.fedorov.mireaproject.databinding.ActivityMainBinding;
 
@@ -60,6 +63,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             openFragment(new ProfileFragment(), getString(R.string.menu_profile));
         } else if (itemId == R.id.nav_files) {
             openFragment(new FilesFragment(), getString(R.string.menu_files));
+        } else if (itemId == R.id.nav_network) {
+            openFragment(new NetworkFragment(), getString(R.string.menu_network));
+        } else if (itemId == R.id.nav_logout) {
+            signOutAndOpenLogin();
+            binding.drawerLayout.closeDrawer(GravityCompat.START);
+            return true;
         } else {
             return false;
         }
@@ -75,6 +84,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 .replace(R.id.fragment_container, fragment)
                 .commit();
         setTitle(title);
+    }
+
+    private void signOutAndOpenLogin() {
+        try {
+            if (!FirebaseApp.getApps(this).isEmpty()) {
+                FirebaseAuth.getInstance().signOut();
+            }
+        } catch (IllegalStateException ignored) {
+            // The app can still return to the login screen if Firebase is not configured.
+        }
+
+        Intent intent = new Intent(this, LoginActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 
     @Override
