@@ -10,24 +10,26 @@
     <string name="menu_profile">Профиль</string>
     <string name="menu_files">Работа с файлами</string>
     <string name="menu_network">Сеть</string>
+    <string name="menu_establishments">Заведения</string>
     <string name="menu_logout">Выход</string>
 
     <string name="student_name">Фёдоров Антон Сергеевич</string>
     <string name="student_group">БСБО-09-23</string>
     <string name="student_full">Фёдоров Антон Сергеевич, БСБО-09-23</string>
-    <string name="nav_header_subtitle">Практическая работа: хранение данных и аппаратные возможности</string>
+    <string name="nav_header_subtitle">Практические работы: данные, сеть и карты</string>
 
-    <string name="permissions_template">Разрешения:&#10;Камера: %1$s&#10;Микрофон: %2$s</string>
+    <string name="permissions_template">Разрешения:&#10;Камера: %1$s&#10;Микрофон: %2$s&#10;Геолокация: %3$s</string>
     <string name="permission_granted">разрешено</string>
     <string name="permission_denied">не выдано</string>
 
-    <string name="home_intro">В приложении собраны разделы практической работы по Android: работа с датчиками, камерой, аудиозаписью, сохранением профиля и шифрованными файлами.</string>
+    <string name="home_intro">В приложении собраны разделы практической работы по Android: работа с датчиками, камерой, аудиозаписью, сохранением профиля, шифрованными файлами, сетью и картами.</string>
     <string name="home_sensor_summary">Экран датчиков показывает список сенсоров, значения акселерометра и рассчитывает направление на север по данным устройства.</string>
     <string name="home_camera_summary">Экран камеры делает фотозаметку: снимок сохраняется в папку приложения, а подпись отображается рядом с фотографией.</string>
     <string name="home_recorder_summary">Экран диктофона позволяет записывать и воспроизводить голосовые заметки с запросом разрешения в момент использования.</string>
     <string name="home_profile_summary">Во фрагменте профиля данные пользователя сохраняются в SharedPreferences и автоматически восстанавливаются после перезапуска приложения.</string>
     <string name="home_files_summary">Во фрагменте работы с файлами создаются зашифрованные текстовые заметки в каталоге Documents приложения. Новая запись добавляется через Floating Action Button.</string>
     <string name="home_network_summary">Экран сети выполняет HTTPS-запрос через HttpURLConnection, получает JSON из удаленного ресурса и выводит результат без блокировки главного потока.</string>
+    <string name="home_establishments_summary">Экран заведений показывает OpenStreetMap-карту с маркерами интересных мест, адресами, описаниями и функцией определения текущего местоположения.</string>
 
     <string name="login_title">Вход в MireaProject</string>
     <string name="login_subtitle">Авторизация выполняется через Firebase Authentication по электронной почте и паролю.</string>
@@ -135,4 +137,30 @@
     <string name="network_stats_template">Звезды: %1$d&#10;Язык: %2$s&#10;Обновлено: %3$s</string>
     <string name="network_url_template">Источник: %1$s</string>
     <string name="network_empty_value">не указано</string>
+
+    <string name="establishments_title">Заведения</string>
+    <string name="establishments_subtitle">На карте отмечены интересные места Москвы. Нажмите на маркер, чтобы увидеть адрес и краткое описание.</string>
+    <string name="establishments_show_all">Показать все</string>
+    <string name="establishments_my_location">Мое местоположение</string>
+    <string name="establishments_status_template">На карте отмечено заведений: %1$d. Включены жесты масштаба, компас и метрическая шкала.</string>
+    <string name="establishments_location_loading">Определение местоположения…</string>
+    <string name="establishments_location_enabled">Слой текущего местоположения включен.</string>
+    <string name="establishments_location_unavailable">Местоположение пока не определено. Проверьте настройки геолокации эмулятора или устройства.</string>
+    <string name="establishments_location_permission_denied">Разрешение на геолокацию не выдано.</string>
+    <string name="establishments_dialog_message_template">Адрес: %1$s&#10;&#10;%2$s</string>
+    <string name="establishment_mirea_name">РТУ МИРЭА</string>
+    <string name="establishment_mirea_address">проспект Вернадского, 78, Москва</string>
+    <string name="establishment_mirea_description">Главная учебная точка маршрута и место выполнения практических работ по мобильной разработке.</string>
+    <string name="establishment_pushkin_name">Кафе «Пушкинъ»</string>
+    <string name="establishment_pushkin_address">Тверской бульвар, 26А, Москва</string>
+    <string name="establishment_pushkin_description">Известный ресторан с историческим интерьером и русской кухней.</string>
+    <string name="establishment_gum_name">ГУМ</string>
+    <string name="establishment_gum_address">Красная площадь, 3, Москва</string>
+    <string name="establishment_gum_description">Крупный торговый комплекс у Красной площади с магазинами, кафе и выставочными пространствами.</string>
+    <string name="establishment_zaryadye_name">Парк «Зарядье»</string>
+    <string name="establishment_zaryadye_address">улица Варварка, 6, строение 1, Москва</string>
+    <string name="establishment_zaryadye_description">Современное городское пространство с прогулочными зонами, павильонами и видом на центр Москвы.</string>
+    <string name="establishment_vdnh_name">ВДНХ</string>
+    <string name="establishment_vdnh_address">проспект Мира, 119, Москва</string>
+    <string name="establishment_vdnh_description">Большой выставочный комплекс с павильонами, музеями, кафе и прогулочными маршрутами.</string>
 </resources>

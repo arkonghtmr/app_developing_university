@@ -35,13 +35,29 @@ public class HomeFragment extends Fragment {
         binding.textPermissions.setText(getString(
                 R.string.permissions_template,
                 permissionState(Manifest.permission.CAMERA),
-                permissionState(Manifest.permission.RECORD_AUDIO)
+                permissionState(Manifest.permission.RECORD_AUDIO),
+                locationPermissionState()
         ));
     }
 
     private String permissionState(String permission) {
         return ContextCompat.checkSelfPermission(requireContext(), permission)
                 == PackageManager.PERMISSION_GRANTED
+                ? getString(R.string.permission_granted)
+                : getString(R.string.permission_denied);
+    }
+
+    private String locationPermissionState() {
+        boolean fineLocationGranted = ContextCompat.checkSelfPermission(
+                requireContext(),
+                Manifest.permission.ACCESS_FINE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED;
+        boolean coarseLocationGranted = ContextCompat.checkSelfPermission(
+                requireContext(),
+                Manifest.permission.ACCESS_COARSE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED;
+
+        return fineLocationGranted || coarseLocationGranted
                 ? getString(R.string.permission_granted)
                 : getString(R.string.permission_denied);
     }

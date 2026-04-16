@@ -83,6 +83,14 @@
             android:textSize="16sp" />
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/home_establishments_summary"
+            android:textColor="@color/brand_text"
+            android:textSize="16sp" />
+
+        <TextView
             android:id="@+id/textPermissions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             openFragment(new FilesFragment(), getString(R.string.menu_files));
         } else if (itemId == R.id.nav_network) {
             openFragment(new NetworkFragment(), getString(R.string.menu_network));
+        } else if (itemId == R.id.nav_establishments) {
+            openFragment(new EstablishmentsFragment(), getString(R.string.menu_establishments));
         } else if (itemId == R.id.nav_logout) {
             signOutAndOpenLogin();
             binding.drawerLayout.closeDrawer(GravityCompat.START);
