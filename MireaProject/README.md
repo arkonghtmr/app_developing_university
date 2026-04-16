@@ -137,6 +137,12 @@ executor.execute(() -> Log.d("ExecutorDemo", "Задача выполняетс�
 
 ---
 
+## Скриншоты
+
+![Стартовый экран проекта](docs/screenshots/practice4_home.png)
+
+---
+
 # Практическая работа №5
 
 ## Тема: Аппаратные возможности Android
@@ -384,6 +390,16 @@ private void checkPermissionAndLaunch() {
     }
 }
 ```
+
+---
+
+## Скриншоты
+
+![Экран датчиков](docs/screenshots/practice5_sensors.png)
+
+![Экран камеры](docs/screenshots/practice5_camera.png)
+
+![Экран диктофона](docs/screenshots/practice5_recorder.png)
 
 ---
 
@@ -766,6 +782,14 @@ app/src/main/res/raw/practice_artifacts_info.txt
 
 ---
 
+## Скриншоты
+
+![Экран профиля](docs/screenshots/practice6_profile.png)
+
+![Экран работы с файлами](docs/screenshots/practice6_files.png)
+
+---
+
 # Практическая работа №7
 
 ## Тема: Сетевое взаимодействие и Firebase Authentication
@@ -906,6 +930,14 @@ return new RepositoryInfo(
 
 ---
 
+## Скриншоты
+
+![Экран входа Firebase](docs/screenshots/practice7_login.png)
+
+![Экран сетевого ресурса](docs/screenshots/practice7_network.png)
+
+---
+
 # Практическая работа №8
 
 ## Тема: Картографические сервисы
@@ -1023,6 +1055,14 @@ binding.mapView.getOverlays().add(locationOverlay);
 - скриншот экрана `Заведения` с OpenStreetMap-картой и маркерами;
 - скриншот диалога, который появляется после нажатия на маркер;
 - при проверке геолокации на эмуляторе указать координаты в `Extended Controls | Location`.
+
+---
+
+## Скриншоты
+
+![Экран заведений с картой](docs/screenshots/practice8_establishments.png)
+
+![Диалог маркера на карте](docs/screenshots/practice8_marker_dialog.png)
 
 ---
 

@@ -158,6 +158,16 @@ getSupportLoaderManager().initLoader(1, null, this);
 
 ---
 
+## Скриншоты
+
+![Экран датчиков](../docs/screenshots/practice5_sensors.png)
+
+![Экран камеры](../docs/screenshots/practice5_camera.png)
+
+![Экран диктофона](../docs/screenshots/practice5_recorder.png)
+
+---
+
 ## Выводы
 
 В ходе выполнения практической работы №5 были изучены асинхронные механизмы Android, предназначенные для выполнения длительных операций вне главного потока. Были освоены `AsyncTask`, `WeakReference`, `LoaderManager` и `AsyncTaskLoader`. Установлено, что `AsyncTask` подходит только для простых учебных задач, тогда как загрузчики обеспечивают более корректную работу с жизненным циклом компонентов Android.

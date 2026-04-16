@@ -72,6 +72,14 @@ https://api.github.com/repos/android/nowinandroid
 
 ---
 
+## Скриншоты
+
+![Экран входа Firebase](../docs/screenshots/practice7_login.png)
+
+![Экран сетевого ресурса](../docs/screenshots/practice7_network.png)
+
+---
+
 ## Необходимые материалы после запуска
 
 Для окончательного отчета по Firebase необходимо добавить в `app/src/main/res/raw` или приложить отдельно:
