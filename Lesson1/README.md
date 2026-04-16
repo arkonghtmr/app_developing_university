@@ -450,6 +450,20 @@ public class MainActivity extends AppCompatActivity {
 
 ---
 
+## Скриншоты
+
+![LinearLayout в модуле layouttype](docs/screenshots/practice1_linear_layout.png)
+
+![TableLayout в модуле layouttype](docs/screenshots/practice1_table_layout.png)
+
+![ConstraintLayout в портретной ориентации](docs/screenshots/practice1_constraint_portrait.png)
+
+![ConstraintLayout в альбомной ориентации](docs/screenshots/practice1_constraint_landscape.png)
+
+![Результат работы ButtonClicker](docs/screenshots/practice1_button_clicker.png)
+
+---
+
 ## Выводы
 
 В ходе выполнения работы были освоены следующие ключевые концепции Android-разработки:

@@ -118,6 +118,18 @@ NavigationUI.setupWithNavController(navigationView, navController);
 
 ---
 
+## Скриншоты
+
+![Передача времени через IntentApp](docs/screenshots/practice3_intent_app.png)
+
+![Возврат результата из FavoriteBook](docs/screenshots/practice3_favorite_book.png)
+
+![Экран системных интентов](docs/screenshots/practice3_system_intents.png)
+
+![Работа с фрагментами SimpleFragmentApp](docs/screenshots/practice3_simple_fragment.png)
+
+---
+
 ## Выводы
 
 В ходе выполнения данной работы были освоены следующие фундаментальные концепции Android-разработки:

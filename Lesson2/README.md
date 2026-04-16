@@ -183,6 +183,20 @@ public void onClickSendNotification(View view) {
 
 ---
 
+## Скриншоты
+
+![Проверка жизненного цикла Activity](docs/screenshots/practice2_activity_lifecycle.png)
+
+![Передача данных между Activity](docs/screenshots/practice2_multi_activity.png)
+
+![Экран неявных намерений IntentFilter](docs/screenshots/practice2_intent_filter.png)
+
+![Всплывающее уведомление Toast](docs/screenshots/practice2_toast.png)
+
+![Системное уведомление NotificationApp](docs/screenshots/practice2_notification.png)
+
+---
+
 ## Выводы
 
 В ходе выполнения данной работы были освоены следующие фундаментальные концепции Android-разработки:
